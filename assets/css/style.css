@@ -1,0 +1,108 @@
+h1, h2, h3, h5 {
+    color: darkblue;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    color: #13D4C1;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+} 
+
+.card1, .card3, .card4 {
+    height: 300px;
+    object-fit: cover;
+    width: 250px;
+    position: center;
+}
+
+.card2 {
+    height: 300px;
+    object-fit: cover;
+    width: 300px;
+    position: center;
+}
+
+.modal-title {
+    color: #13D4C1;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.form-label {
+    color: darkblue;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;   
+}
+
+.card5, .card6, .card7 {
+    height: 500px;
+    object-fit: cover;
+    width: 300px;
+    position: center
+    }
+
+    :root {
+        --color-light: #F3F4F5;
+        --color-pink: #13D4C1;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .container {
+        width: 90%;
+        height: auto;
+        margin: 10px auto;
+        padding: 5px;
+        border: 1px solid;
+        border-radius: 5px;
+    }
+    h1, h2 {
+        margin: 0 .5rem;
+        font-family: 'Poppins', sans-serif;
+        color: var(--color-pink);
+    }
+    .box-form {
+        margin: .5rem
+    }
+    .box-item {
+        display: flex;
+        flex-direction: column;
+        margin: .5rem 0;
+    }
+    .form-label {
+        font-weight: 600;
+        font-size: 1.1rem;
+        margin: 0.5rem 0;
+    }
+    .form-control {
+        width: 100%;
+        border: 0;
+        background-color: var(--color-light);
+        height: 3.5rem;
+        border-radius: 5px;
+        padding-left: 10px;
+        font-size: 1.1rem;
+    }
+    .form-btn {
+        width: 100%;
+        margin: 0.8rem 0;
+        border: 0;
+        background-color: var(--color blue);
+        color: darkblue;
+        font-weight: 900;
+        font-size: 1.2rem;
+        height: 3.5rem;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .label {
+        color: darkblue;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    }
